@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply p-0 m-0 bg-black text-white font-sans;
+  }
+
+  p {
+    @apply mb-5
+  }
+
+  ul {
+    @apply pl-10 list-disc mb-5
+  }
+
+  ul li {
+    @apply mb-3
+  }
+
+  a {
+    @apply underline hover:text-pantoneOrange font-bold;
+  }
+}
+
+@layer components { }
+
+@layer utilities {
+  .center {
+    @apply flex items-center justify-center;
+  }
+
+  .page {
+    @apply px-4 md:px-14;
+  }
+}

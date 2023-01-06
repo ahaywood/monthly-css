@@ -1,0 +1,13 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#000000",
+    "titleBar.activeBackground": "#ff5900",
+    "titleBar.activeForeground": "#FDFAF6"
+  },
+  "cSpell.words": [
+    "monthlyjs",
+    "pantone",
+    "Roboto"
+  ],
+  "files.associations": { "*.mdx": "markdown", "*.svx": "markdown" },
+}

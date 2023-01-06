@@ -1,0 +1,17 @@
+---
+const {title} = Astro.props;
+---
+
+<h2 class="font-wide text-pantoneOrange uppercase text-4xl mb-16 md:mb-24">{title}</h2>
+
+<style>
+  h2 {
+    @apply flex items-center gap-x-6 w-full justify-center px-5 md:px-0;
+  }
+
+  h2:before,
+  h2:after {
+    @apply hidden md:block w-28 h-[1px] bg-pantoneOrange;
+    content: '';
+  }
+</style>
