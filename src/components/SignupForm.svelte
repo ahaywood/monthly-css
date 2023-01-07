@@ -55,7 +55,7 @@
     <div class="field flex items-center gap-x-2">
       <input type="checkbox" name="monthly-css" id="monthly-css" checked />
       <label
-        for="monthly-css"
+        for="monthly-js"
         class="!font-sans !text-xl !normal-case !tracking-normal !mb-0 min-h-[37px]"
       >
         Receive
